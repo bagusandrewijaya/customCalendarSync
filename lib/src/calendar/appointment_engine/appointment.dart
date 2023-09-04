@@ -81,6 +81,7 @@ class Appointment with Diagnosticable {
     this.recurrenceId,
     this.id,
     this.status,
+    this.appointmentid,
     required this.startTime,
     required this.endTime,
     this.subject = '',
@@ -142,6 +143,7 @@ class Appointment with Diagnosticable {
   ///  ```
   DateTime startTime;
   String? status;
+  String? appointmentid;
 
   /// The end time for an [Appointment] in [SfCalendar].
   ///
